@@ -3,9 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="refresh" content="0; url=https://jzersalon.com/">
 <script>
-  window.location.href = "https://jzersalon.com/";
+  if (window.location.hostname !== 'jzersalon.com' && window.location.hostname !== 'www.jzersalon.com') {
+    window.location.href = "https://jzersalon.com/";
+  }
 </script>
 <title>JZER Salon</title>
 <style>
